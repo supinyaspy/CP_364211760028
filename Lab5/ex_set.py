@@ -1,6 +1,6 @@
 # set
 
-myset = {'appie'}, 'banana', 'cherry'
+myset = {'appie', 'banana', 'cherry'}
 print(myset)
 print(type(myset))
 print(len(myset))
@@ -11,15 +11,15 @@ for x in myset:
     print(x)
 
 # keyword in
-print('apple' in myset) # True
-print('mango' in myset) # False
+print('apple' in myset)  # True
+print('mango' in myset)  # False
 
 # add data to set
 # add()
 myset.add('mango')
 print(myset)
 # update()
-mynum = {10,20,30}
+mynum = {10, 20, 30}
 print(mynum)
 myset.update(mynum)
 print(myset)
@@ -30,16 +30,17 @@ myset.remove('banana')
 if 'papaya' in myset:
     myset.remove('papaya')
 else:
-    print('set has no item "papaya"')
-myset.remove('papaya')
+    print('sey has no item "papaya"')
 print(myset)
+
 # discard()
 myset.discard(20)
-print(myset)
+
 # pop()
 x = myset.pop()
 print(x)
 print(myset)
+
 # del keyword
 del mynum
 #print(mynum)
