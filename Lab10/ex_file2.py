@@ -19,8 +19,8 @@ else:
 
 # create file with mode 'a'
 try:
-    f = open('demo6.txt','a')
-    f.write("Writing contents with mode 'a' .... MIT211")
+    f = open('demo6.txt', 'a')
+    f.write("Writing contents with mode 'a' ... MIT211\n")
 except Exception as e:
     print(e)
 else:
@@ -28,11 +28,11 @@ else:
 finally:
     f.close()
 
-
+# create file with mode 'w'
 
 try:
-    f = open('demo7.txt','w')
-    f.write("delete and writing new contents with mode 'w' .... MIT211")
+    f = open('demo7.txt', 'w')
+    f.write("delete and writing new contents with mode 'w'\n")
 except Exception as e:
     print(e)
 else:
