@@ -8,8 +8,8 @@ Group: {MIT211}
 
 a = []
 while True:
-    x = int(input())
-    if x == 1:
+    c = int(input())
+    if c == 1:
         break
-    a.append(x)
+    a.append(c)
 print(a)
